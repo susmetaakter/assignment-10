@@ -67,13 +67,13 @@ const Login = () => {
             <div className="hero-content flex-col">
                 <div className="text-center">
                     <div className='flex justify-center items-start gap-8'>
-                        <img style={{ width: '40px' }} src="./assets/icons/Restaurant-1.png" alt="" />
+                        <img style={{ width: '40px' }} src="/assets/icons/Restaurant-1.png" alt="" />
                         <img style={{ width: '40px' }} src="./assets/icons/Restaurant-2.png" alt="" />
                         <img style={{ width: '40px' }} src="./assets/icons/Restaurant-3.png" alt="" />
                         <img style={{ width: '40px' }} src="./assets/icons/Restaurant-4.png" alt="" />
                         <img style={{ width: '40px' }} src="./assets/icons/Restaurant-5.png" alt="" />
                     </div>
-                    <h1 className="text-5xl font-bold my-5">Login now!</h1>
+                    <h1 className="text-5xl font-bold my-5">Please Login!</h1>
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form onSubmit={handleLogin} className="card-body">
                             <div className="form-control">
@@ -97,7 +97,7 @@ const Login = () => {
                         </form>
                         {error !== '' && <p className='text-red-500 text-xs mt-3'>{error}</p>}
                         {success !== '' && <p className='text-green-500 text-xs mt-3'>{success}</p>}
-                        <span className='text-xs mt-0'>New to Gusto? please<button className="btn btn-link text-xs"><Link to="/register">Register</Link></button></span>
+                        <span className='text-xs mt-0'>New to basil Thai? please<button className="btn btn-link text-xs"><Link to="/register">Register</Link></button></span>
                     </div>
                     <button onClick={handleSignInWithGoogle} className="btn btn-outline btn-primary mt-5"><FaGoogle /><span className='ms-3'> Login with google</span></button> <br />
                     <button onClick={handleSignInWithGithub} className="btn btn-outline btn-primary mt-5"><FaGithub /><span className='ms-3'> Login with github</span></button>

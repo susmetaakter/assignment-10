@@ -51,7 +51,7 @@ const Register = () => {
                         <img style={{ width: '40px' }} src="./assets/icons/Restaurant-4.png" alt="" />
                         <img style={{ width: '40px' }} src="./assets/icons/Restaurant-5.png" alt="" />
                     </div>
-                    <h1 className="text-5xl font-bold my-5">Please Register!</h1>
+                    <h1 className="text-5xl font-bold my-5">Register Now!</h1>
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form onSubmit={handleRegister} className="card-body">
                             <div className="form-control">
