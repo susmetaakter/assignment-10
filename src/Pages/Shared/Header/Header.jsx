@@ -26,7 +26,7 @@ const Header = () => {
                         <ActiveLink to='/blog'>Blog</ActiveLink>
                     </nav>
                 </div>
-                <a className="title md:text-4xl text-2xl font-semibold">Gusto</a>
+                <a className="title md:text-4xl text-2xl font-semibold">Basil Thai</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <nav className="menu menu-horizontal px-1 gap-5 flex items-center">
@@ -42,9 +42,9 @@ const Header = () => {
                             <div className="tooltip flex justify-center" data-tip={user?.displayName}>
                                 <img src={user?.photoURL} className='rounded-full w-2/5 max-w-xs' />
                             </div>
-                            <button className='btn bg-orange-500 border-0 font-semibold' onClick={handleLogOut}>Logout</button>
+                            <button className='btn bg-red-900 px-8 border-0 font-semibold' onClick={handleLogOut}>Logout</button>
                         </> :
-                        <button className='btn bg-orange-500 border-0 font-semibold'> <Link to='/login'>Login</Link></button>
+                        <button className='btn bg-red-900 px-8 border-0 font-semibold'> <Link to='/login'>Login</Link></button>
                 }
 
             </div>
