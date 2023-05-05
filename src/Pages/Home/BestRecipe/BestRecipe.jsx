@@ -4,21 +4,21 @@ const bestRecipes = [
     {
         id: 1,
         name: 'Massaman Curry',
-        img: "../../../../public/platter-1.png",
+        img: "../../../../platter-1.png",
         reviews: 456,
         price: 60
     },
     {
         id: 2,
         name: 'Som Tam',
-        img: "../../../../public/platter-2.png",
+        img: "../../../../platter-2.png",
         reviews: 678,
         price: 90
     },
     {
         id: 3,
         name: 'Khao Soi',
-        img: "../../../../public/platter-3.png",
+        img: "../../../../platter-3.png",
         reviews: 200,
         price: 77
     },

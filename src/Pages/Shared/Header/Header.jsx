@@ -22,7 +22,6 @@ const Header = () => {
                     </label>
                     <nav tabIndex={0} className="menu menu-compact dropdown-content mt-3 px-2 py-5 shadow bg-base-100 rounded-box w-40 flex items-center">
                         <ActiveLink to='/'>Home</ActiveLink>
-                        <ActiveLink to='/contact'>Contact</ActiveLink>
                         <ActiveLink to='/blog'>Blog</ActiveLink>
                     </nav>
                 </div>
@@ -31,7 +30,6 @@ const Header = () => {
             <div className="navbar-center hidden lg:flex">
                 <nav className="menu menu-horizontal px-1 gap-5 flex items-center">
                     <ActiveLink to='/'>Home</ActiveLink>
-                    <ActiveLink to='/contact'>Contact</ActiveLink>
                     <ActiveLink to='/blog'>Blog</ActiveLink>
                 </nav>
             </div>
