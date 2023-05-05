@@ -11,7 +11,7 @@ const ChefContainer = ({ chef }) => {
         <div className="card card-compact md:w-96 w-54 bg-base-100 shadow-xl mx-auto">
             <figure>
                 <LazyLoad>
-                    <img src={picture} alt="Shoes" />
+                    <img className=' w-96 h-72' src={picture} alt="Shoes" />
                 </LazyLoad>
             </figure>
             <div className="card-body">
