@@ -6,27 +6,27 @@ import "slick-carousel/slick/slick-theme.css";
 const reviews = [
   {
     id: 1,
-    name: "Lili williams",
-    job: "CEO of Raphen",
+    name: "Prapat",
+    job: " A taxi driver",
     image: "https://images.unsplash.com/photo-1614015581731-6f039568565f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGN1c3RvbWVyJTIwcGhvdG98ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
     review:
-      "I had an amazing experience at this Italian food place. The platter was delicious and the service was excellent. I highly recommend it to anyone looking for a great dining experience.",
+      " I am a big fan of Thai street food and often stops by food stalls during his breaks. Recently, I tried a dish called Khao Mun Gai, which is a popular Thai version of Hainanese chicken rice. I loved the tender chicken and the fragrant rice, which was cooked in chicken broth. He highly recommends this dish to anyone who wants to try authentic Thai street food.",
   },
   {
     id: 2,
-    name: "Jane Smith",
-    job: "Air hostess",
+    name: "Siriporn",
+    job: " A teacher",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
     review:
-      "This is the best Italian restaurant I've ever been to. The pasta is homemade and the sauces are delicious. The atmosphere is also great. I will definitely be back!",
+      "I recently tried the Pad Kra Pao at a local Thai restaurant and was blown away by the dish's bold flavors. I particularly loved the combination of fresh basil, chili peppers, and ground meat. I highly recommends this dish to anyone who loves spicy food.",
   },
   {
     id: 3,
-    name: "Miki doe",
-    job: "Founder of upek",
+    name: "Supaporn",
+    job: "A banker",
     image: "https://plus.unsplash.com/premium_photo-1661762009455-598b1fb964b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGN1c3RvbWVyJTIwcGhvdG98ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
     review:
-      "The food was amazing. Everything from the appetizers to the desserts was delicious. The service was also fantastic. I can't wait to come back!",
+      " I am a fan of Thai fine dining and recently dined at a high-end Thai restaurant. I tried a dish called Hor Mok Pla, which is a steamed fish curry served in a banana leaf cup. I was impressed by the delicate balance of spices and the high-quality fish used in the dish. I highly recommends this dish to anyone who wants to experience the finer side of Thai cuisine.",
   },
 ];
 
@@ -44,7 +44,7 @@ const CustomerReview = () => {
 
   return (
     <div>
-      <h2 className='md:text-5xl text-3xl text-center font-semibold text-white mb-10'>Word from our customers</h2 >
+      <h2 className='md:text-5xl text-3xl text-center font-semibold text-white mb-10'>our customers review</h2 >
       <div style={{ backgroundColor: '#212A3E' }} className="text-white text-center lg:max-w-lg md:max-w-md max-w-xs mx-auto rounded-2xl">
         <Slider {...settings}>
           {reviews.map((review) => (
