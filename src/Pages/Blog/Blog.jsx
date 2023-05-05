@@ -16,7 +16,7 @@ const Blog = () => {
             <div ref={ref}>
                 <h2 className='text-2xl text-red-800 font-bold'> 1. Tell us the differences between uncontrolled and controlled components. </h2>
                 <p className='mb-5 mt-2'><FaLongArrowAltRight />
-                An uncontrolled component is a form element that manages its state internally. In other words, its value is not controlled by React but by the browser. When a user interacts with the component, its value is read directly from the DOM using a ref, and any subsequent updates to the value are also managed by the browser.A controlled component, on the other hand, is a form element that is fully controlled by React. Its value is managed by React state, and any updates to the value are passed down through props to the form element. When a user interacts with the component, the new value is passed back up through a callback function provided by the parent component. 
+                An uncontrolled component is a form element that manages its state internally. In other words, its value is not controlled by React but by the browser. When a user interacts with the component, its value is read directly from the DOM using a ref, and any subsequent updates to the value are also managed by the browser.A controlled component, on the other hand, is a form element that is fully controlled by React. Its value is managed by React state, and any updates to the value are passed down through props to the form element. When a user interacts with the component, the new value is passed back up through a callback function provided by the parent. 
                 </p>
 
                 <h2 className='text-2xl  text-red-800 font-bold'> 2. How to validate React props using PropTypes? </h2>
