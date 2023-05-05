@@ -1,0 +1,8 @@
+.links{
+    border: #FFF8F3;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    gap: 16px;
+    justify-content: left;
+}

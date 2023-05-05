@@ -1,0 +1,10 @@
+.home{
+    background-image:linear-gradient(rgba(13, 13, 14, 0.598), rgba(14, 14, 13, 0.7)), url('../../../../public/Gusto\ Restaurant\ Front\ View.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.home-container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
